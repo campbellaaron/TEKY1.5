@@ -1,13 +1,9 @@
-/* IMPORTED FONTS */
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Ubuntu&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
-
-
-/***********************************
-******** GENERAL *******************
+/**********************************
+GENERAL
 ***********************************/
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper {
@@ -18,17 +14,20 @@ body {
 
 a {
   text-decoration: none;
-  color: #6ab47b;
 }
 
 img {
   max-width: 100%;
 }
 
+h3 {
+  margin: 0 0 1em 0;
+}
 
 
-/***********************************
-******** HEADING *******************
+
+/**********************************
+HEADING
 ***********************************/
 
 header {
@@ -44,8 +43,8 @@ header {
 }
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
-  margin: 15px 0px;
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
@@ -59,8 +58,8 @@ h2 {
 
 
 
-/***********************************
-******** NAVIGATION ****************
+/**********************************
+NAVIGATION
 ***********************************/
 
 nav {
@@ -85,8 +84,9 @@ nav a {
 }
 
 
-/***********************************
-******** FOOTER *******************
+
+/**********************************
+FOOTER
 ***********************************/
 
 footer {
@@ -100,12 +100,13 @@ footer {
 .social-icon {
   width: 20px;
   height: 20px;
+  margin: 0 5px;
 }
 
 
 
-/***********************************
-******** PAGE PORTFOLIO ************
+/**********************************
+PAGE: PORTFOLIO
 ***********************************/
 
 #gallery {
@@ -126,13 +127,61 @@ footer {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #bdc3c7
 }
 
 
 
-/***********************************
-******** COLORS *******************
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+
+/**********************************
+COLORS
 ***********************************/
 
 /* site body */
@@ -141,10 +190,10 @@ body {
   color: #999;
 }
 
-/* green header*/
+/* green header */
 header {
   background: #6ab47b;
-  border-color: #599a68; 
+  border-color: #599a68;
 }
 
 /* nav background on mobile */
@@ -157,6 +206,11 @@ h1, h2 {
   color: #fff;
 }
 
+/* links */
+a {
+  color: #6ab47b;
+}
+
 /* nav link */
 nav a, nav a:visited {
   color: #fff;
@@ -166,3 +220,17 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
